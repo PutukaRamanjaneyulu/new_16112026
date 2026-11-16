@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramanjaneyulu Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+       
+    </style>
+</head>
+<body class="bg-[#EAE2B7] text-[#231F20] font-serif">
+    <!-- Navbar -->
+    <nav class="bg-[#FFDDD2] text-[#003049]  p-4 fixed w-full top-0 z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">PUTUKA RAMANJANEYULU</h1>
+            <ul class="hidden md:flex space-x-6" id="nav-menu">
+                <li><a href="#about" class="hover:text-[#00A6ED]">About</a></li>
+                
+                
+                <li><a href="#skills" class="hover:text-[#00A6ED]">Skills</a></li>
+                <li><a href="#certifications" class="hover:text-[#00A6ED]">Certifications</a></li>
+                <li><a href="#projects" class="hover:text-[#00A6ED]">Projects</a></li>
+                <li><a href="#education" class="hover:text-[#00A6ED]">Education</a></li>
+                <li><a href="#contact" class="hover:text-[#00A6ED]">Contact</a></li>
+            </ul>
+            <button class="md:hidden text-black" id="menu-btn">☰</button>
+        </div>
+        <ul class="md:hidden hidden flex-col bg-[var(--card-bg)] w-full text-center" id="mobile-menu">
+            <li><a href="#about" class="block py-2 hover:text-[#00A6ED]">About</a></li>
+            
+            
+            <li><a href="#skills" class="block py-2 hover:text-[#00A6ED]">Skills</a></li>
+            <li><a href="#certifications" class="block py-2 hover:text-[#00A6ED]">Certifications</a></li>
+            <li><a href="#projects" class="block py-2 hover:text-[#00A6ED]">Projects</a></li>
+            <li><a href="#education" class="block py-2 hover:text-[#00A6ED]">Education</a></li>
+            <li><a href="#contact" class="block py-2 hover:text-[#00A6ED]">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="h-screen flex flex-col-reverse md:flex-row justify-center items-center text-center md:text-left mb-16 px-6 md:px-20 bg-[#003049] text-[#E29578]">
+        <div class="md:w-1/2">
+            <h2 class="text-[var(--heading-color)] text-4xl font-bold">Hello, I'm a Data Analyst</h2>
+            <p class="mt-2 text-lg">Transforming data into meaningful insights</p>
+          
+        <!-- Buttons -->
+            <div class="mt-6 flex space-x-4 justify-center md:justify-start">
+                <a href="#contact" class="ml-4 px-6 py-3 border-2 border-[#E29578] text-[#E29578] font-semibold rounded-lg hover:bg-[#E29578] hover:text-[#003049] transition">
+                    Contact Me
+                </a>
+                <a href="resume.pdf" download class="ml-4 px-6 py-3 border-2 border-[#E29578] text-[#E29578] font-semibold rounded-lg hover:bg-[#E29578] hover:text-[#003049] transition">
+                    Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="md:w-1/2 flex justify-center mb-6 md:mb-0">
+            <img src="profile.png" alt="Profile Picture" class="w-80 h-80 object-cover rounded-full shadow-lg transform transition duration-300 hover:scale-110">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-[#003049] text-white text-center mb-16 p-12">
+        <h2 class="text-4xl font-extrabold text-[#00A6ED] font-mono mb-6">About Me</h2>
+    <p class="text-xl font-light leading-relaxed max-w-4xl mx-auto text-[#CCD5AE]">
+        I am a Data Analyst with expertise in data visualization, reporting, and dashboards, proficient in SQL, Excel, Power BI, and Tableau. I have a strong analytical mindset, excellent problem-solving abilities, and a proactive approach to extracting meaningful insights from data.
+
+With hands-on experience in inventory & supply chain analytics, sales analytics, and business intelligence, I have worked on real-world projects, optimizing processes and enhancing decision-making through data-driven solutions. My technical skill set includes Python (Pandas, NumPy, Scikit-learn), MySQL, PostgreSQL, and automation tools like Power Query and Python scripting.
+
+I am passionate about leveraging data to drive business growth and efficiency, continuously expanding my knowledge in statistical analysis, hypothesis testing, and data cleaning to refine my analytical capabilities.
+    </p>
+    </section>
+
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="text-center py-16 px-8 bg-[#023047] shadow-lg mt-10">
+    <h2 class="text-4xl font-extrabold text-[#2A9D8F] font-mono mb-6">Skills</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-xl font-light">
+        <!-- Data Analysis & Visualization -->
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Data Analysis & Visualization</h3>
+            <p class="mt-2">Excel, Power BI, Tableau, Matplotlib, Seaborn</p>
+            <p class="text-sm mt-1 text-[#003049]">Certified: PwC Data Analytics Job Simulation</p>
+        </div>
+        <!-- Programming & Scripting -->
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Programming & Scripting</h3>
+            <p class="mt-2">Python (Pandas, NumPy, Scikit-learn), SQL (MySQL, PostgreSQL)</p>
+            <p class="text-sm mt-1 text-[#003049]">Certified: Accenture Python & SQL</p>
+        </div>
+        <!-- Database Management -->
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Database Management</h3>
+            <p class="mt-2">MySQL, PostgreSQL</p>
+            <p class="text-sm mt-1 text-[#003049]">Certified: NxtWave Introduction to Databases</p>
+        </div>
+        <!-- Automation & Query Optimization -->
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Automation & Query Optimization</h3>
+            <p class="mt-2">Power Query, Python Automation</p>
+        </div>
+        <!-- Statistical & Analytical Techniques -->
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Statistical & Analytical Techniques</h3>
+            <p class="mt-2">Hypothesis Testing, A/B Testing, Data Cleaning</p>
+        </div>
+    </div>
+</section>
+
+    
+ <!-- Certification Section (Only Images with Hover Effect) -->
+ <section id="certifications" class="text-center py-16 px-8 bg-[#023047] shadow-lg mt-10">
+    <h2 class="text-4xl font-extrabold text-[#00A6ED] mb-8">Certifications</h2>
+    <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <!-- Python Certification -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="python.png" alt="Python Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">Python Certification</p>
+        </div>
+
+        <!-- SQL Certification -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="sql.png" alt="SQL Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">SQL Certification</p>
+        </div>
+
+        <!-- LinkedIn Certification -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="Linked_in.png" alt="LinkedIn Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">LinkedIn Certification</p>
+        </div>
+
+        <!-- Power BI Simplilearn -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="PowerBi_SKillCourse.png" alt="Power BI Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">Power BI Certification</p>
+        </div>
+
+        <!-- Data Analytics Forage -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="DA_Forage.png" alt="Data Analytics Forage Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">Data Analytics Forage</p>
+        </div>
+
+        <!-- PwC Forage Certification -->
+        <div class="p-4 bg-[#003049] rounded-lg shadow-md">
+            <img src="Pwc_Forage.png" alt="PwC Forage Certification" class="w-full rounded-md bg-[#EAE2B7] p-4 shadow-lg transform transition duration-300 hover:scale-110">
+            <p class="mt-2 text-lg font-bold text-[#00A6ED]">PwC Forage Certification</p>
+        </div>
+
+
+
+        
+    </div>
+</section>
+
+
+    
+
+     
+
+    <!-- Projects Section -->
+    <section id="projects" class="w-full text-center py-16 px-8 bg-[#003049] shadow-lg mt-10">
+        <h2 class="text-4xl font-extrabold text-[#00A6ED] font-mono mb-6">Projects</h2>
+    
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    
+            <!-- Project 1 -->
+            <div class="relative bg-[#EAE2B7] rounded-lg shadow-md overflow-hidden">
+                <div class="group">
+                    <img src="project1.png" alt="Sales Data Analysis" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl text-[#003049] font-bold"> Zepto Inventory and Supply Chain Optimization</h3>
+                    <p class="mt-2 text-[#231F20]">Analyzed Zepto's inventory and supply chain efficiency using data-driven insights to optimize stock levels, reduce delays, and improve delivery performance using SQL and Power Bi.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/PutukaRamanjaneyulu/Zepto-Power_BI-Dashboard" target="_blank" class="px-6 py-3 bg-[#E29578] text-[#003049] text-lg font-bold rounded-lg shadow-lg hover:bg-[#FFDDD2] transition">
+                            View
+                        </a>
+                        <a href="Zepto.pdf" download class="px-6 py-3 bg-[#006D77] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#004D55] transition">
+                            Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Project 2 -->
+            <div class="relative bg-[#EAE2B7] rounded-lg shadow-md overflow-hidden">
+                <div class="group">
+                    <img src="project2.png" alt="Customer Segmentation" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl text-[#003049] font-bold">Domino's Sales Analytics Dashboard</h3>
+                    <p class="mt-2 text-[#231F20]">Developed an interactive Power BI dashboard to analyze Domino's sales performance, customer preferences, and regional trends for data-driven decision-making.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/PutukaRamanjaneyulu/Domino-s-sales_Dashboard" target="_blank" class="px-6 py-3 bg-[#E29578] text-[#003049] text-lg font-bold rounded-lg shadow-lg hover:bg-[#FFDDD2] transition">
+                            View
+                        </a>
+                        <a href="Dominos DashBoard.pdf" download class="px-6 py-3 bg-[#006D77] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#004D55] transition">
+                            Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Project 3 -->
+            <div class="relative bg-[#EAE2B7] rounded-lg shadow-md overflow-hidden">
+                <div class="group">
+                    <img src="project3.png" alt="Data Visualization Dashboard" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl text-[#003049] font-bold">Optimizing Business Insights with SQL</h3>
+                    <p class="mt-2 text-[#231F20]">Designed and optimized a relational database using SQL queries (JOINs, CTEs, Window Functions) to extract valuable business insights and improve decision-making.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/PutukaRamanjaneyulu/sql_project" target="_blank" class="px-6 py-3 bg-[#E29578] text-[#003049] text-lg font-bold rounded-lg shadow-lg hover:bg-[#FFDDD2] transition">
+                            View
+                        </a>
+                        <a href="Sql_project_.pdf" download class="px-6 py-3 bg-[#006D77] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#004D55] transition">
+                            Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 4 -->
+            <div class="relative bg-[#EAE2B7] rounded-lg shadow-md overflow-hidden">
+                <div class="group">
+                    <img src="project4.png" alt="Data Visualization Dashboard" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl text-[#003049] font-bold">Motorola Sales Analysis Report</h3>
+                    <p class="mt-2 text-[#231F20]">This report presents a Power BI dashboard analyzing Motorola's sales performance.
+                         It includes key metrics such as total sales, quantity sold, transactions, and average sales, along with breakdowns by city, mobile model, payment method, and customer ratings.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/PutukaRamanjaneyulu/Mobile_sales_dashboard" target="_blank" class="px-6 py-3 bg-[#E29578] text-[#003049] text-lg font-bold rounded-lg shadow-lg hover:bg-[#FFDDD2] transition">
+                            View
+                        </a>
+                        <a href="Mototola.pdf" download class="px-6 py-3 bg-[#006D77] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#004D55] transition">
+                            Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- Project 5 -->
+            <div class="relative bg-[#EAE2B7] rounded-lg shadow-md overflow-hidden">
+                <div class="group">
+                    <img src="project_5.png" alt="Data Visualization Dashboard" class="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl text-[#003049] font-bold">Customer Credit Risk & Financial Overview</h3>
+                    <p class="mt-2 text-[#231F20]">Developed an interactive Power BI dashboard to analyze customer credit risk using key metrics like monthly income, debt ratio, and dependents. Visualized trends across education, region, gender, and housing status to identify patterns in financial behavior and credit performance.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="https://github.com/PutukaRamanjaneyulu/Credit_Card_Analysis" target="_blank" class="px-6 py-3 bg-[#E29578] text-[#003049] text-lg font-bold rounded-lg shadow-lg hover:bg-[#FFDDD2] transition">
+                            View
+                        </a>
+                        <a href="Task_1_2.pdf" download class="px-6 py-3 bg-[#006D77] text-white text-lg font-bold rounded-lg shadow-lg hover:bg-[#004D55] transition">
+                            Report
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+<!-- Education Section -->
+<section id="education" class="text-center py-16 px-8 bg-[#003049] shadow-lg mt-10">
+    <h2 class="text-4xl font-extrabold text-[#00A6ED] font-mono mb-6">Education</h2>
+    <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 text-xl font-light">
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Master of Business Administration (MBA)</h3>
+            <p class="mt-2">JNTU Anantapur,<br> 2023 - 2025</p>
+            <p class="mt-1">Speciliazation : Finance & Systems</p>
+        </div>
+        <div class="p-6 bg-[#EAE2B7] rounded-lg shadow-md">
+            <h3 class="text-2xl text-[#003049] font-bold">Bachelor in Commerce (B.com)</h3>
+            <p class="mt-2">Rayalaseema University,<br> 2020 - 2023</p>
+            <p class="mt-1">Speciliazation : Computer Applications </p>
+        </div> 
+    </div>
+</section>
+    
+ <!-- Resume Section -->
+ <section id="resume" class="w-full text-center py-16 px-8 bg-[#003049] shadow-lg mt-10">
+    <h2 class="text-4xl font-extrabold text-[#00A6ED] font-mono mb-6">Resume</h2>
+    <a href="resume.pdf" download class="inline-block mt-6 px-6 py-3 bg-[#E29578] text-[#003049] font-semibold rounded-lg shadow-md hover:bg-[#FFDDD2] transition">
+       Download Resume
+    </a>
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="w-full py-16 px-8 bg-[#003049] text-[#EAE2B7] shadow-lg mt-10">
+    <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+        
+        <!-- Left Side: Contact Info & Image -->
+        <div class="md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
+            <img src="contact-image.jpg" alt="Contact" class="w-64 h-64 object-cover rounded-lg shadow-lg mb-6 transform transition duration-300 hover:scale-110">
+            <h2 class="text-4xl font-extrabold text-[#00A6ED] font-mono mb-4">Get in Touch</h2>
+            <p class="text-lg font-semibold text-white mb-2">
+                <i class="fa-solid fa-envelope text-[#FFDDD2] mr-2"></i> pramanjaneyulu2025@gmail.com
+            </p>
+            <p class="text-lg font-semibold text-white mb-2">
+                <i class="fa-solid fa-phone text-[#FFDDD2] mr-2"></i> +91 6303279318
+            </p>
+            <p class="text-lg font-semibold text-white mb-2">
+                <i class="fa-solid fa-location-dot text-[#FFDDD2] mr-2"></i> Location: Hyderabad, Telangana, India
+            </p>
+        </div>
+
+        <!-- Right Side: Contact Form -->
+        <div class="md:w-1/2 bg-[#EAE2B7] p-8 rounded-lg shadow-lg">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <h2 class="text-3xl font-semibold text-[#003049] mb-6">Contact Me</h2>
+            <input type="hidden" name="access_key" value="3da50a16-ff76-43b0-b914-bdb0dc402a4a">
+        
+            <input type="text" placeholder="Your Name" name="name" required class="w-full p-4 bg-[#FFDDD2] rounded-lg mb-4 text-[#003049] font-medium">
+            <input type="email" placeholder="Your Email" name="email" required class="w-full p-4 bg-[#FFDDD2] rounded-lg mb-4 text-[#003049] font-medium">
+            <textarea placeholder="Your Message" required class="w-full p-4 bg-[#FFDDD2] rounded-lg mb-4 text-[#003049] font-medium"></textarea>
+            <button type="submit" class="px-6 py-3 bg-[#E29578] text-[#003049] font-semibold rounded-lg shadow-md hover:bg-[#FFDDD2] transition">
+        
+            Send Message
+            </button>
+        </form>
+        </div>
+
+    </div>
+</section>
+
+    <!-- Footer Section -->
+    <footer class="w-full bg-[#003049] text-[#EAE2B7] py-8 px-6 mt-10">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between">
+            
+            <!-- Footer Text Section -->
+            <div class="text-center md:text-left mb-4 md:mb-0">
+                <h3 class="text-2xl font-semibold">P. Ramanjaneyulu | Data Analyst</h3>
+                <p class="text-sm mt-2">&copy; 2025 P. Ramanjaneyulu | All Rights Reserved</p>
+            </div>
+    
+            <!-- Social Media Links with Hover Effects -->
+            <div class="flex space-x-6">
+                <a href="https://www.linkedin.com/in/putuka-ramanjaneyulu-2128r" target="_blank" class="transition transform hover:scale-125">
+                    <i class="fa-brands fa-linkedin text-2xl text-[#EAE2B7] hover:text-[#FFDDD2]"></i>
+                </a>
+                <a href="https://github.com/PutukaRamanjaneyulu" target="_blank" class="transition transform hover:scale-125">
+                    <i class="fa-brands fa-github text-2xl text-[#EAE2B7] hover:text-[#FFDDD2]"></i>
+                </a>
+                <a href="mailto:pramanjaneyulu550@gmail.com" class="transition transform hover:scale-125">
+                    <i class="fa-solid fa-envelope text-2xl text-[#EAE2B7] hover:text-[#FFDDD2]"></i>
+                </a>
+            </div>
+    
+        </div>
+    </footer>
+    
+
+    <script>
+        document.getElementById("menu-btn").addEventListener("click", function() {
+            document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+    </script>
+</body>
+</html>
